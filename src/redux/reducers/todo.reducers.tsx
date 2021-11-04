@@ -15,6 +15,7 @@ export function todoReducer(state: TodoState = initialState, action: any) {
                 ]
             }
         case REMOVE_ITEM:
+            console.log(action.payload)
             return {
                 ...state,
                 items: state.items.filter((val, i) => i !== action.payload)
