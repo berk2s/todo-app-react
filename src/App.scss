@@ -1,0 +1,35 @@
+.page-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+  .page-area {
+    width: 50%;
+    .page-header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin: 20px 0;
+      .sub-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        a {
+          margin-right: 15px;
+        }
+      }
+      p {
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+      }
+    }
+    .page-content {
+
+
+    }
+  }
+}
